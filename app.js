@@ -4,7 +4,7 @@ const app = express()
 const path = require('path')
 require('dotenv').config();
 
-app1.disable("x-powered-by");
+app.disable("x-powered-by");
 
 // Import Middleware
 const logger = require('./middleware/logger')
