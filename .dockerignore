@@ -1,0 +1,7 @@
+testing/.
+README.md
+sonar-project.properties
+node_modules/
+coverage/
+package-lock.json
+ubuntu-nginx
