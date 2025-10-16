@@ -3,9 +3,6 @@ pipeline {
         label 'srv1-fedro'
     }
 
-    
-    tools {nodejs "nodejs 18.20.8"}
-
     stages {
         stage('Checkout SCM') {
             steps {
