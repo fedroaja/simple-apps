@@ -4,7 +4,7 @@ pipeline {
     }
 
     
-    tools {nodejs "nodejs 18.16.0"}
+    tools {nodejs "nodejs 18.20.8"}
 
     stages {
         stage('Checkout SCM') {
